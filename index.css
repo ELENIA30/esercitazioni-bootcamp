@@ -1,0 +1,35 @@
+
+
+
+
+h2 {
+    color: orange;
+    
+}
+
+
+body ul li {
+    color: orchid;
+    font-size: 20px;
+}
+
+h3{
+     color: rgb(222, 55, 228);
+}
+
+#submit {
+     border-color: blueviolet;
+     border-top-style: groove;
+     color: blueviolet;
+     cursor: pointer;
+     text-decoration: none;
+     background-color: rgb(247, 191, 245);
+  
+}
+#input {
+    border-color: blueviolet;
+}
+body {
+    font-size: 20px;
+    line-height: 30px;
+}
