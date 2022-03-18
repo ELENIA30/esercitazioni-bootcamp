@@ -1,0 +1,40 @@
+h1 {
+    font-weight: bold;
+    color: black;
+    font-family: 'Exo 2', bold;
+}
+h3{
+    color: black;
+    font-family: 'Exo 2',bold;
+    font-size: medium;
+}
+.inputDiv {
+    color: black;
+    font-family: 'Exo 2';
+
+}
+
+.button1 {
+    color: white;
+    background-color: rgb(42, 145, 230);
+    font-family: 'Exo 2';
+    border-radius: 5px;
+    border-color: rgb(42, 145, 230);
+    border-bottom: rgb(42, 145, 230);
+    border-bottom-left-radius:none;
+    size: 10px;
+    
+}
+#submit {
+    border-radius: none;
+    border-color: white;
+    background-color: white;
+    border-bottom: none;
+    border-left: white;
+    font-family: 'Exo 2';
+    font-size: small;
+}
+h4 {
+    color: black;
+    font-family: 'Exo 2';
+}
