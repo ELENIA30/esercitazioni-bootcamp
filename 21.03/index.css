@@ -1,0 +1,68 @@
+
+
+body{
+    width:800px;
+    height: 1000px;
+    background-image: url("img/tel.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    margin: 10px auto;
+
+  }
+
+  #dinamica {
+      color: rgb(255, 255, 255);
+      font-family: 'Exo 2';
+      font-size:20px ;
+
+  }
+
+  header{
+      background-color: bisque;
+      display: block;
+      width: auto;
+      height: auto;
+      margin: 10px auto ;
+  }
+  h1{
+      color: black;
+      font-family: 'Pacifico';
+  }
+  h3 {
+      font-family: 'Exo 2';
+  }
+  #nome{
+      font-family: 'Exo';
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+  }
+  #cognome{
+      font-family: 'Exo';
+      border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  #numero {
+      font-family: 'Exo';
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+  }
+  #submit {
+      background-color: rgb(255, 255, 255);
+      font-family: 'Exo';
+      border-radius: 10px;
+      cursor: pointer;
+
+  }
+  #submit:hover{
+      color:brown;
+  }
+  #remove {
+    background-color:  rgb(255, 255, 255);
+    font-family: 'Exo';
+    border-radius: 10px;
+    cursor: pointer;
+}
+#remove:hover {
+    color: brown;
+}
+

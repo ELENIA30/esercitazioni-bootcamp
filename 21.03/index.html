@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media ="all" href="/index.css">
+    <title>Rubrica</title>
+</head>
+<body>
+       
+            <h1>La mia Rubrica</h1>
+       
+    <div class="add">
+        <h3>Aggiungi un nuovo contatto:</h3>
+        <div class="inputDiv">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Scrivi qui " required >  
+            <label for="cognome"> Cognome:</label>
+            <input type="text" name="cognome" id="cognome" placeholder="Scrivi qui" required >
+        </br>
+            <label for="numero"> Numero:</label>
+            <input type="text" name="numero" id="numero" placeholder="Scrivi qui" required >
+            </br>
+        </br>
+            <button  id="submit">+ Aggiungi</button>
+        
+            <button id="remove"> Rimuovi</button>
+            
+
+
+            <div id="lista">
+                <ul id="dinamica"></ul>
+            </div>
+          
+        
+        </div>   
+
+    </div>
+
+    
+
+
+
+    
+      
+    
+    <script src="./index.js"></script>
+</body>
+</html>
